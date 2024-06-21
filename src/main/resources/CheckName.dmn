@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_8E502083-ACC6-4106-8418-7DD370E243AD" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_E59C780E-A5C9-4C2C-9F46-9B21A6DAAD68" name="Untitled" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_8E502083-ACC6-4106-8418-7DD370E243AD">
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_8E502083-ACC6-4106-8418-7DD370E243AD" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_E59C780E-A5C9-4C2C-9F46-9B21A6DAAD68" name="CheckName" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_8E502083-ACC6-4106-8418-7DD370E243AD">
   <dmn:extensionElements/>
   <dmn:inputData id="_39FAA4F9-5FAE-4284-A497-DAFF954297FB" name="checkName">
     <dmn:extensionElements/>
@@ -11,7 +11,7 @@
     <dmn:informationRequirement id="_D475D629-6230-4519-8E3B-4AEA7D8E1DE3">
       <dmn:requiredInput href="#_39FAA4F9-5FAE-4284-A497-DAFF954297FB"/>
     </dmn:informationRequirement>
-    <dmn:decisionTable id="_F1B2B2CB-A299-4CC9-84C1-270ADF5F9673" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+    <dmn:decisionTable id="_F1B2B2CB-A299-4CC9-84C1-270ADF5F9673" hitPolicy="FIRST" preferredOrientation="Rule-as-Row">
       <dmn:input id="_12B05560-7516-46A0-BB89-C5E6DA3E2372">
         <dmn:inputExpression id="_6FBF59D0-11BA-487F-A83F-D5A8D7250863" typeRef="string">
           <dmn:text>checkName</dmn:text>
